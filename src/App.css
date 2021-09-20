@@ -32,7 +32,27 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+.blog {
+  background-color: skyblue;
+  border: 1px solid lightsalmon;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+.users {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5px;
+}
+.userinfo {
+  background-color: skyblue;
+  border: 2px solid lightsalmon;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
 }
